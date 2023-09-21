@@ -9,24 +9,24 @@ const Profile = () => {
 					<Image src="https://avatars.githubusercontent.com/u/104137693?v=4" />
 				</Box>
 
-				<Box p="0 8px" display="flex" flexDirection="column">
-					<Heading as="h3" size="lg" textAlign="left">Hello!🐶 </Heading>	
+				<Box p="0 24px" display="flex" flexDirection="column" alignSelf="flex-end">
+					<Heading as="h3" size="md" textAlign="left">Hello!🐶 </Heading>	
 
-					<Box display="flex" flexDirection="row">
-						<Heading>My_name_is_</Heading>
+					<Box display="flex" flexDirection="row" >
+						<Heading as="h3" size="md" alignSelf="center">My_name_is_</Heading>
 
 						<Heading color="#9158ff">50nicd347h9</Heading>
 					</Box>
 				</Box>
 			</Box>
 
-			<Grid p="16px 0 0 0" templateColumns="repeat(5, 1fr)">
-				<GridItem >
-					<Button background="blue" color="white">Twitter</Button>
+			<Grid m="32px 0"templateColumns="repeat(5, 1fr)">
+				<GridItem>
+					<Button background="#4543d2" color="white">Twitter</Button>
 				</GridItem>
 
 				<GridItem >
-					<Button background="blue" color="white">GitHub</Button>
+					<Button background="#4543d2" color="white">GitHub</Button>
 				</GridItem>
 			</Grid>
 		</Box>
